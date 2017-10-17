@@ -10,5 +10,5 @@ function init() {
     //alert(event.which);
     nums.push(event.which);
   })
-  
+  console.log(nums)
 }
