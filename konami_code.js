@@ -10,7 +10,8 @@ function init() {
     document.addEventListener('keydown', (event) => {
       //alert(event.which);
       nums.push(event.which);
+      alert(nums)
     })
   }
   alert('Congrats!')
-} 
+}
