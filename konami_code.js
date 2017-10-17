@@ -7,4 +7,7 @@ function init() {
     alert(event.which);
     nums.push(event.which);
   })
+  if (nums.include(code)){
+    alert('COngratulations murherfucka!')
+  } 
 }
