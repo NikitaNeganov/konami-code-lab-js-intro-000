@@ -1,13 +1,13 @@
-const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
+const array = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 function init() {
   // Write your JavaScript code inside the init() function
   let index = 0;
   document.addEventListener('keydown', onKeyDownHandler);
   function onKeyDownHandler(e){
     const key = parseInt(e.which);
-    if (key === code[index]){
+    if (key === array[index]){
       index++;
-      if (index === code.length){
+      if (index === array.length){
         alert('yuppee!');
         index = 0;
       }
