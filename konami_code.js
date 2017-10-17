@@ -14,4 +14,7 @@ function init() {
       index = 0;
     }
   }
+  while (index < code.length - 1){
+    onKeyDownHandler();
+  }
 }
