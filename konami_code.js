@@ -4,6 +4,6 @@ function init() {
   // Write your JavaScript code inside the init() function
   const main = document.getElementByTagName('body')
   main.addEventListener('keydown', function(event){
-    console.log(event.which)
+    alert(event.which)
   })
 }
